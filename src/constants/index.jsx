@@ -1,14 +1,14 @@
 export const STRUCTURE = {
     main: {
-        title: 'Main',
+        title: 'Home',
         route: '/',
     },
     todo: {
-        title: 'To Do',
+        title: 'Food',
         route: '/todo/',
     },
     settings: {
-        title: 'Settings',
+        title: 'About',
         route: '/settings/',
     }
 
