@@ -7,10 +7,11 @@ import {Header} from "./components/header";
 import MainRouter from './routes';
 import {Provider} from 'react-redux';
 import {storeFactory} from "./reducers";
-
 const initialState = {};
 export const store = storeFactory(initialState);
 
+//что хотим отобразить - Header, MainRouter. В root
+// app.jsx хранится содержание главной странички
 const render = () => ReactDOM.render(
     <Provider store={store}>
         <BrowserRouter>
