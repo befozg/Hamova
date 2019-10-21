@@ -7,9 +7,10 @@ import {Header} from "./components/header";
 import MainRouter from './routes';
 import {Provider} from 'react-redux';
 import {storeFactory} from "./reducers";
+import 'bootstrap/dist/css/bootstrap.css';
+import './custom.scss';
 const initialState = {};
 export const store = storeFactory(initialState);
-
 //что хотим отобразить - Header, MainRouter. В root
 // app.jsx хранится содержание главной странички
 const render = () => ReactDOM.render(

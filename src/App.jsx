@@ -5,21 +5,47 @@ import './App.css';
 function App() {
   return (
       <div className="App">
-        <div className="head-main">Բարև ձեզ</div>
-          <div className={"subtitle"}>
-              Are you hungry? Don't care!
-          </div>
           <header className="App-header">
-            <img src="bludo.png" className="App-logo" alt="logo.svg" />
-          <a
-              className="App-link"
-              href="localhost:3000"
-              target="_blank"
-              rel="noopener noreferrer"
-          >
-            Hamova - official
-          </a>
-        </header>
+              <div className="mt-5">
+                  <figure className="figure">
+                      <img src="bludo.png" className="App-logo" alt="logo.svg" />
+                      <figcaption class="figure-caption">Xorovac</figcaption>
+                  </figure>
+                  <figure className="figure">
+                      <img src="bludo.png" className="App-logo" alt="logo.svg"/>
+                      <figcaption className="figure-caption">Xorovac</figcaption>
+                  </figure>
+                  <figure className="figure">
+                      <img src="bludo.png" className="App-logo" alt="logo.svg"/>
+                      <figcaption className="figure-caption">Xorovac</figcaption>
+                  </figure>
+                  <figure className="figure">
+                      <img src="bludo.png" className="App-logo" alt="logo.svg"/>
+                      <figcaption className="figure-caption">Xorovac</figcaption>
+                  </figure>
+                  <figure className="figure">
+                      <img src="bludo.png" className="App-logo" alt="logo.svg"/>
+                      <figcaption className="figure-caption">Xorovac</figcaption>
+                  </figure>
+                  <figure className="figure">
+                      <img src="bludo.png" className="App-logo" alt="logo.svg"/>
+                      <figcaption className="figure-caption">Xorovac</figcaption>
+                  </figure>
+              </div>
+              <div className="sticky-top">
+                  <p>Բարև ձեզ
+                  </p>
+                  <a
+                      className="App-link"
+                      href="localhost:3000"App-header
+                      target="_blank"
+                      rel="noopener noreferrer"
+                  >
+                      Hamova - official
+                  </a>
+              </div>
+
+          </header>
 
       </div>
   );

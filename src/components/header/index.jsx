@@ -3,6 +3,7 @@ import {STRUCTURE} from "../../constants";
 import {NavLink} from "react-router-dom";
 import css from './styles.module.scss';
 
+
 export const Header = () => {
     return (
         <div className={css.header}>
